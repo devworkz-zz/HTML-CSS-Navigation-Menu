@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*Code by DevWorkz.org For Demo Purposes only */
+body {
+	background-color: #eeeeee;
+	margin: 0 auto;
+}
+#navigation-bg {
+	width: 100%;
+	background-color: #ed4732;
+	height: 42px;
+
+}
+#menu {
+	width: 80%;
+	margin: 0 auto;
+	height: 30px;
+	padding-top: 12px;
+	font-size: 13px;
+}
+#menu ul {
+	list-style: none;
+	width: 80%;
+	display: inline;
+	margin-top: 10px;
+	margin-left: -4.5%;
+}
+#menu li {
+	margin-top: 0px;
+	margin-left: 10px;
+	height: 40px;
+	display: inline;
+}
+#menu a {
+	padding: 10px;
+	text-decoration: none;
+	color: #FFF;
+	text-transform: uppercase;
+}
+#menu a:visited {
+	color: #FFF;
+}
+#menu a:hover, #menu a:active {
+	background-color: #f4907f;
+}
